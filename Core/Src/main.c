@@ -65,7 +65,7 @@ static void JumpToApp(void)
 {
 	uint32_t i=0;
 	void (*AppJump)(void);         /* 声明一个函数指针 */
-	__IO uint32_t AppAddr = 0x90000000;  /* APP 地址 */
+	__IO uint32_t AppAddr = 0x90002000;  /* APP 地址 */
     
 
     /* 关闭全局中断 */
